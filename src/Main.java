@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -45,8 +47,6 @@ public class Main {
         System.out.println(value);
         value /= 2;
         System.out.println(value);
-
-
 
 
         /*ejercicio almacena una variable tu año de nacimiento y el año actual y despues las utilice
@@ -98,6 +98,50 @@ public class Main {
         float sumaTempehYseitan = seitan +tempeh;
 
         System.out.println("seitan y tempeh el total seria $" + sumaTempehYseitan + " dolares");
+
+        char c0 = 'a';
+        char c1 = 'b';
+        char c2 = '\n';
+        System.out.println(c0);
+        System.out.println(c2);
+        System.out.println(c1);
+
+        String text = "Hello!\n";
+        String text2 ="the whole wide";
+        System.out.println(text + text2+ " World");
+
+        Scanner escaner = new Scanner(System.in);
+        String texto;
+        System.out.println("escribe un texto: ");
+        texto = escaner.nextLine();
+        System.out.println("wow sabes escribir!");
+
+
+        Scanner escaner1 = new Scanner(System.in);
+        int num8;
+        System.out.println("escribe tu edad: ");
+        num8 = escaner1.nextInt();
+        System.out.println("wow eres bien pinche vieja!");
+
+    /*post y pre incremento*/
+        int bb =3;
+        bb++;
+        --bb;
+        System.out.println(bb);
+
+        int i=3, j=2 ,k=1;
+        i = ++j * k;
+        System.out.println(i);
+
+        int n = 1, m = 3, l = 4;
+        m = l + n ++;
+        n *= 3;
+        n = n + m + l * m ;
+
+        System.out.println(n);
+
+
+
 
 
 
